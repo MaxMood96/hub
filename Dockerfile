@@ -1,4 +1,4 @@
-FROM ruby:2.6
+FROM ruby:2.7.6
 
 RUN apt-get update \
 	&& apt-get install -y sudo golang --no-install-recommends
